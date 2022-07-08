@@ -2,6 +2,9 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import mimetypes
+
+mimetypes.add_type("text/css", ".css", True)
 
 
 def main():
